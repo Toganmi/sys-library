@@ -5,7 +5,11 @@ html {
   padding: 0;
   font-weight: 400;
   font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+<<<<<<< HEAD
     Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+=======
+  Microsoft YaHei, '\5FAE\8F6F\96C5\9ED1', Arial, sans-serif;
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
 }
 
 * {
@@ -17,6 +21,7 @@ html {
 
 a {
   text-decoration: none;
+<<<<<<< HEAD
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a:-webkit-any-link{
@@ -25,6 +30,10 @@ a:-webkit-any-link{
 .router-link-active .router-link-exact-active{
   color: #646566;
 }
+=======
+}
+
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
 ul,
 ol {
   list-style: none;
@@ -660,7 +669,11 @@ ol {
 }
 
 .mvs-container .filter-wrap > div span.title::before {
+<<<<<<< HEAD
   content: "", pos;
+=======
+  content: '', pos;
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
 }
 
 .mvs-container .filter-wrap > div ul {
@@ -811,7 +824,11 @@ ol {
 }
 
 .playlist-container .top-wrap .info-wrap .tag-wrap li:not(:last-child)::after {
+<<<<<<< HEAD
   content: "/";
+=======
+  content: '/';
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
   margin: 0 4px;
 }
 
@@ -1023,6 +1040,7 @@ ol {
   position: relative;
 }
 
+<<<<<<< HEAD
 .playlists-container
   .tab-container
   .tab-content
@@ -1030,6 +1048,9 @@ ol {
   .item
   .img-wrap
   .icon-play {
+=======
+.playlists-container .tab-container .tab-content .items .item .img-wrap .icon-play {
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
   position: absolute;
   right: 10px;
   bottom: 13px;
@@ -1045,6 +1066,7 @@ ol {
   opacity: 0;
 }
 
+<<<<<<< HEAD
 .playlists-container
   .tab-container
   .tab-content
@@ -1062,6 +1084,13 @@ ol {
   .item
   .img-wrap:hover
   .icon-play {
+=======
+.playlists-container .tab-container .tab-content .items .item .img-wrap .icon-play::before {
+  transform: translateX(3px);
+}
+
+.playlists-container .tab-container .tab-content .items .item .img-wrap:hover .icon-play {
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
   opacity: 1;
 }
 
@@ -1299,12 +1328,20 @@ ol {
 }
 
 .main {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
 }
 
 .index-container .main {
   flex: 1;
   overflow-y: scroll;
   padding: 0px 15px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
 }
 
 .index-container .main > div {
@@ -1370,4 +1407,8 @@ ol {
 
 .el-menu.el-menu--horizontal {
   width: 100%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f

@@ -18,8 +18,12 @@ export function request(config) {  //外面传函数
     // console.log(res);
     return res.data  //记得返回
   }, err => {
+<<<<<<< HEAD
     // console.log(err);
     return err
+=======
+    console.log(err);
+>>>>>>> 2e5245f64712e129abcf89b268d3cd1a00d1b32f
   })
 
   // 3.发送真正的网络请求
