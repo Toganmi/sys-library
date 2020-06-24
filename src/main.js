@@ -8,7 +8,7 @@ Vue.use(Vant)
 // 导入全局初始化样式
 import './assets/index.css'
 
-// 路由整合
+// 整合路由
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
